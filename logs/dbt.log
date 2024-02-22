@@ -1,0 +1,76 @@
+[0m19:38:21.252796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF0A809810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF0A31E450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF0A31DF90>]}
+
+
+============================== 19:38:21.256797 | 7e46b29e-36d0-4f07-8738-9808d3d5961c ==============================
+[0m19:38:21.256797 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:38:21.256797 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\giova\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:38:42.498241 [debug] [MainThread]: Starter project path: C:\Users\giova\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m19:38:42.532132 [info ] [MainThread]: 
+Your new dbt project "certification_study" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:38:42.532132 [info ] [MainThread]: Setting up your profile.
+[0m19:40:05.679085 [info ] [MainThread]: Profile certification_study written to C:\Users\giova\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:40:05.694428 [debug] [MainThread]: Command `dbt init` succeeded at 19:40:05.694428 after 104.48 seconds
+[0m19:40:05.694428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF0A7F25D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF098FDDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF0A3B4350>]}
+[0m19:40:05.694428 [debug] [MainThread]: Flushing usage events
+[0m19:42:03.446516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312C6B3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312C19F6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312BF11D10>]}
+
+
+============================== 19:42:03.462144 | 9d9b4b5c-7832-450c-9666-80022cb97bc1 ==============================
+[0m19:42:03.462144 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:42:03.462144 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\giova\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:03.462144 [info ] [MainThread]: dbt version: 1.7.4
+[0m19:42:03.462144 [info ] [MainThread]: python version: 3.11.0
+[0m19:42:03.462144 [info ] [MainThread]: python path: C:\Users\giova\AppData\Local\Programs\Python\Python311\python.exe
+[0m19:42:03.462144 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:42:03.712811 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_DATABASE'
+[0m19:42:03.713817 [debug] [MainThread]: Command `dbt debug` failed at 19:42:03.713817 after 0.29 seconds
+[0m19:42:03.714811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312BF54350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312C6BC050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002312BF11FD0>]}
+[0m19:42:03.714811 [debug] [MainThread]: Flushing usage events
+[0m19:42:19.761632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C87B2A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C8780E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C85C4F50>]}
+
+
+============================== 19:42:19.761632 | e1fa9a65-5528-4a44-a86f-4423871afc64 ==============================
+[0m19:42:19.761632 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:42:19.761632 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\giova\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:19.761632 [info ] [MainThread]: dbt version: 1.7.4
+[0m19:42:19.761632 [info ] [MainThread]: python version: 3.11.0
+[0m19:42:19.761632 [info ] [MainThread]: python path: C:\Users\giova\AppData\Local\Programs\Python\Python311\python.exe
+[0m19:42:19.761632 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:42:20.017867 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_DATABASE'
+[0m19:42:20.017867 [debug] [MainThread]: Command `dbt debug` failed at 19:42:20.017867 after 0.29 seconds
+[0m19:42:20.017867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C56CF090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C8783590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217C7FE1FD0>]}
+[0m19:42:20.017867 [debug] [MainThread]: Flushing usage events
+[0m19:42:57.630896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B582470D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B58246910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B58069E90>]}
+
+
+============================== 19:42:57.634028 | 3b5629e2-f020-439d-8416-2e88e176c6d9 ==============================
+[0m19:42:57.634028 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:42:57.634550 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\giova\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:42:57.635067 [info ] [MainThread]: dbt version: 1.7.4
+[0m19:42:57.635585 [info ] [MainThread]: python version: 3.11.0
+[0m19:42:57.635585 [info ] [MainThread]: python path: C:\Users\giova\AppData\Local\Programs\Python\Python311\python.exe
+[0m19:42:57.636609 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:42:57.890955 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_DATABASE'
+[0m19:42:57.890955 [debug] [MainThread]: Command `dbt debug` failed at 19:42:57.890955 after 0.30 seconds
+[0m19:42:57.890955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B5829B150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B58758450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B587794D0>]}
+[0m19:42:57.890955 [debug] [MainThread]: Flushing usage events

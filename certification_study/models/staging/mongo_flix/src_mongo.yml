@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: mongo_flix
+    database: GG_DBT_RAW
+    schema: MONGO_FLIX
+    tables:
+      - name: _AIRBYTE_RAW_USERS
+      - name: _AIRBYTE_RAW_THEATERS
+      - name: _AIRBYTE_RAW_MOVIES
+      - name: _AIRBYTE_RAW_COMMENTS
