@@ -1,0 +1,20 @@
+version: 2
+
+exposures:
+    #Required
+  - name: lorem
+    type: dashboard
+    #Optional
+    label: somenthing
+    maturity: high
+    description: >
+      Did someone say "exponential growth"?
+    #Expected
+    depends_on:
+      - ref('int_comments')
+      - ref('int_movies')
+    
+    #Required
+    owner:
+      name: giovani
+      email: giovanigalego96@gmail.com
