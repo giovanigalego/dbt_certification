@@ -6,19 +6,11 @@ models:
     config:
       enabled: true
       tags: [mongo_flix]
-      # pre-hook: <sql-statement> | [<sql-statement>]
-      # post-hook: <sql-statement> | [<sql-statement>]
-      # database: <string> CRIA O MODELO EM OUTRO DATABASE
-      # schema: <string> CRIA O MODELO EM OUTRO SCHEMA
-      # alias: <string> CRIA UM ALIAS PARA O MODELO, QUANDO USADO, A REFERENCIA PARA O MODELO PASSA A SER O VALOR DADO AO ALIAS
-      # persist_docs: <dict>
       full_refresh: false
       meta:
         owner: "@giovani"
         model_maturity: dev
         favorite_color: red
-      # grants: {<dictionary>}
-      # contract: {<dictionary>}
     docs:
       show: true
       node_color: gold

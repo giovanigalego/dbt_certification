@@ -6,5 +6,5 @@ with country_raw as (
 )
 
 select distinct
-    upper(country_name::string) as country_name    
+    upper(country_name::string) as country_name,  
 from country_raw

@@ -18,6 +18,7 @@ test-paths: ["tests"]
 seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
+docs-paths: ["docs"]
 
 clean-targets:         # directories to be removed by `dbt clean`
   - "target"
@@ -31,7 +32,21 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
+  +copy_grants: true
   certification_study:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    staging:
       +materialized: view
+      event_data:
+        +schema: stg_event
+      mongo_flix:
+        +schema: stg_mongo
+
+    intermediate:
+      +schema: transform
+      +materialized: view
+
+tests:
+  cert_study:
+    intermediate:
+      +store_failures: true
+      # +schema: tests_failed -- adicionar essa linha caso queira colocar em um schema que não seja o default (dbt_test__audit)

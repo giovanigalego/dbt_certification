@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: mongo_flix
     database: GG_DBT_RAW
-    schema: MONGO_FLIX
+    schema: MONGODB_MFLIX
     tables:
       - name: _AIRBYTE_RAW_USERS
       - name: _AIRBYTE_RAW_THEATERS
