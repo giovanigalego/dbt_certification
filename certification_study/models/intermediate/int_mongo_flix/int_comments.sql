@@ -1,6 +1,6 @@
 with int_comments as (
     {{ flatten_json(
-        model_name = ref("mongo_comments"),
+        model_name = ref("stg_mongo_comments"),
         json_column = '_AIRBYTE_DATA'
     )}}
 )

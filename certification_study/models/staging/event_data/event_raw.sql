@@ -5,4 +5,4 @@ with event_raw as (
 select
     json.*
 from event_raw,
-lateral flatten (input=> RANDOM_DATA) as json
+lateral flatten (input=> JSON_DATA) as json

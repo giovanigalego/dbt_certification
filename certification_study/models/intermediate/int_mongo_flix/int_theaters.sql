@@ -1,6 +1,6 @@
 with int_theaters as (
     {{ flatten_json(
-        model_name = ref("mongo_theaters"),
+        model_name = ref("stg_mongo_theaters"),
         json_column = '_AIRBYTE_DATA'
     )}}
 )

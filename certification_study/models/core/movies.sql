@@ -1,1 +1,4 @@
-select * from {{ ref('int_movies') }}
+select 
+    *
+    
+from {{ ref('int_movies') }}
