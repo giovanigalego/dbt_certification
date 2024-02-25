@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: event_data
+    description: "**Assim podemos usar c@r@cteres especiais [Read More](https://www.google.com.br)**"
     database: GG_DBT_RAW
     schema: DATASET
     tables:

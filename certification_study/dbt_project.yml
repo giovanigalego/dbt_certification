@@ -35,7 +35,7 @@ models:
   +copy_grants: true
   certification_study:
     staging:
-      +materialized: view
+      +materialized: table
       event_data:
         +schema: stg_event
       mongo_flix:
@@ -44,6 +44,9 @@ models:
     intermediate:
       +schema: transform
       +materialized: view
+    
+    core:
+      +materialized: table
 
 tests:
   cert_study:

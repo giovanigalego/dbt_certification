@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: comments
+    description: "Esse jeito a gente referencia outros modelos na description [comments](#!/models/intermediate/int_comments#)"
+    

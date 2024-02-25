@@ -20,3 +20,10 @@ models:
           - unique:
               config:
                 store_failures: true
+  
+  - name: int_theaters_sample
+    description: modelo sendo criado para ver se pode testar um modelo antes de materializar
+    columns:
+      - name: _ID
+        tests:
+          - not_null
