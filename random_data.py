@@ -11,7 +11,7 @@ user = "GIOVANIGALEGO"
 password = "Giov@ni96@Snow"
 database = "GG_DBT_RAW"
 schema = "DATASET"
-table = "EVENT_DATA"
+table = "DEMO_DATA"
 fake = Faker()  # Initialize Faker for realistic data
 
 def generate_random_json_data(num_items=1):
