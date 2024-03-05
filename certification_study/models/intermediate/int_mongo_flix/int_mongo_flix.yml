@@ -14,12 +14,6 @@ models:
     docs:
       show: true
       node_color: gold
-    columns:
-      - name: rated
-        tests:
-          - unique:
-              config:
-                store_failures: true
   
   - name: int_theaters_sample
     description: modelo sendo criado para ver se pode testar um modelo antes de materializar

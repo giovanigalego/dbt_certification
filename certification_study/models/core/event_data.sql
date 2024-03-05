@@ -12,7 +12,7 @@ select
     ,is_active
     ,name
     ,phone_number
-    {# ,random_number #}
+    ,random_number as random_number
 from {{ref('int_event')}}
 {% if is_incremental() %}
 where datetime > (select max(datetime) from {{ this }})
