@@ -11,7 +11,7 @@ select
     ,datetime
     ,is_active
     ,name
-    ,phone_number
+    ,phone_number as phone_number
     ,random_number as random_number
 from {{ref('int_event')}}
 {% if is_incremental() %}
